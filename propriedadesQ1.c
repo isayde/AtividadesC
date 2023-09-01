@@ -19,6 +19,6 @@ int main()
         printf("3) A raiz quadrada do número digitado é: %.2f\n", sqrt(numero));
         printf("4) A raiz cúbica do número digitado é: %.2f\n", pow(numero,(1.0/3.0)));
         printf("5) O resto da divisão do número por 3 é: %.2f\n", resto);
-        
+        return 0;
     }
 }
