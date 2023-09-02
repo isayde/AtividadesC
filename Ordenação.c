@@ -33,5 +33,7 @@ int main()
             printf("Colocando o menor no meio fica: %d - %d - %d", maior, menor, meio);
         default:
             printf("Escolha incorreta");
+            return 1;
     }
+    return 0;
 }
